@@ -1,0 +1,128 @@
+body {
+  text-align: center;
+  color: #fff;
+}
+
+/* headings */
+h1  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2, h3, h4, h5, h6{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+/* navbar */
+.navbar {
+  padding: 2% 10% 1%;
+}
+
+a{
+  padding-left: 5px;
+}
+.nav-item {
+  color: #ffff;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+}
+
+
+
+
+/* title section */
+#title {
+  background-color: #1b262c;
+  padding: 2% 10% 7%
+}
+
+.title-text {
+  padding-top: 5%;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+.title-image {
+  width: 80%;
+  position: absolute;
+  z-index: 1;
+  right: 20%
+
+
+}
+
+/* who am i section */
+#who-am-i {
+  background-color: #f4f9f4;
+  color: #1b262c;
+  padding: 7% 10%;
+  text-align: left;
+}
+
+
+
+/* rate section */
+#rate{
+  padding: 7% 10%;
+  background-color: #1b262c;
+  color: #f4f9f4;
+}
+
+.test-image{
+  width: 10%;
+  border-radius: 100px 50px;
+  margin: 20px;
+}
+
+.test-text{
+  padding: 2%;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+/* cta section */
+#cta{
+  padding: 7% 10%;
+  background: linear-gradient(to bottom left, #1b262c 50%, #f4f9f4 100%);
+  }
+
+
+
+
+  /* footer section */
+  #footer{
+    background-color: #1b262c;
+    color: #f4f9f4;
+    font-size: 7px;
+    padding: 10px 10px 3px;
+  }
+
+
+/* contaniers */
+.container-fluid{
+  padding: 7% 10%;
+}
+
+
+
+/* @media */
+@media( max-width: 768px) {
+  .title-image {
+    width: 50%;
+    position: static;
+    text-align: center;
+    padding-top: 3%;
+  }
+
+}
